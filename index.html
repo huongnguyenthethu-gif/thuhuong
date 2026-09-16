@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Mai Phương | Senior Event Producer & Brand Marketing Lead</title>
+    
+    <!-- SEO & Metadata -->
+    <meta name="description" content="Portfolio cá nhân chuyên nghiệp của Nguyễn Mai Phương - Chuyên gia Sản xuất Sự kiện (Event Producer) và Chiến lược Tiếp thị Thương hiệu (Brand Marketing Lead).">
+    <meta name="keywords" content="Event Producer, Quản trị sự kiện, Brand Marketing, Tổ chức sự kiện, IMC Campaign, Activation, Festival, Showcase Portfolio">
+    <meta name="author" content="Nguyễn Mai Phương">
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nguyễn Mai Phương | Senior Event Producer & Brand Marketing Lead">
+    <meta property="og:description" content="Khám phá các case study sự kiện quy mô lớn, đại nhạc hội và chiến dịch tiếp thị thương hiệu nổi bật.">
+    <meta property="og:image" content="assets/images/event_summit.jpg">
+
+    <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- Ambient Particle Canvas Background -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Header & Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="brand-logo">
+                <div class="brand-badge">P</div>
+                <div class="brand-text">MaiPhuong<span>.Events</span></div>
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link" data-i18n="navAbout">Giới thiệu</a></li>
+                <li><a href="#services" class="nav-link" data-i18n="navServices">Dịch vụ</a></li>
+                <li><a href="#skills" class="nav-link" data-i18n="navSkills">Kỹ năng</a></li>
+                <li><a href="#projects" class="nav-link" data-i18n="navProjects">Dự án</a></li>
+                <li><a href="#timeline" class="nav-link" data-i18n="navTimeline">Lộ trình</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="navContact">Liên hệ</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <!-- Theme Toggle Button -->
+                <button class="btn-icon-toggle" id="theme-toggle-btn" aria-label="Đổi giao diện Sáng/Tối">☀️</button>
+                
+                <!-- Language Toggle Button -->
+                <button class="lang-toggle-btn" id="lang-toggle-btn" aria-label="Đổi ngôn ngữ">🇻🇳 VN</button>
+
+                <!-- CV / Deck Download CTA -->
+                <a href="#contact" class="btn btn-primary btn-sm" data-i18n="btnResume">Tải Portfolio Deck</a>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-toggle" id="mobile-menu-btn" aria-label="Mở menu di động">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-content-col">
+                <div class="hero-status-pill">
+                    <span class="hero-status-dot"></span>
+                    <span id="hero-status-text">🟢 Sẵn sàng nhận dự án & tư vấn chiến dịch</span>
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="greeting">Xin chào, tôi là</span>
+                    <span id="hero-profile-name">Nguyễn Mai Phương</span>
+                    <br>
+                    <span class="hero-rotator">
+                        <span id="hero-rotator-text">Senior Event Producer</span>
+                        <span class="typing-cursor"></span>
+                    </span>
+                </h1>
+
+                <p class="hero-bio" id="hero-bio">
+                    Chuyên gia với hơn 6 năm kinh nghiệm trong lĩnh vực tổ chức sự kiện quy mô lớn, hoạch định chiến lược tiếp thị tích hợp (IMC) và sản xuất nội dung sáng tạo. Từng dẫn dắt thành công hơn 85 sự kiện từ mega-concert, hội nghị thượng đỉnh quốc tế đến các chiến dịch kích hoạt thương hiệu viral.
+                </p>
+
+                <div class="hero-cta-group">
+                    <a href="#projects" class="btn btn-primary" data-i18n="viewProjects">Khám Phá Dự Án</a>
+                    <a href="#contact" class="btn btn-secondary" data-i18n="contactMe">Tư Vấn Sự Kiện</a>
+                </div>
+
+                <div class="hero-social-links">
+                    <span class="hero-social-label" data-i18n="followMe">Mạng xã hội:</span>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-circle-btn" aria-label="LinkedIn">in</a>
+                    <a href="https://behance.net" target="_blank" rel="noopener" class="social-circle-btn" aria-label="Behance">Bē</a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener" class="social-circle-btn" aria-label="Facebook">f</a>
+                    <a href="mailto:phuong.nguyen.events@gmail.com" class="social-circle-btn" aria-label="Email">✉</a>
+                </div>
+            </div>
+
+            <!-- Hero Visual Showcase -->
+            <div class="hero-visual-col">
+                <div class="avatar-wrapper">
+                    <div class="avatar-glowing-ring"></div>
+                    <div class="avatar-img-container">
+                        <img src="assets/images/avatar.jpg" alt="Nguyễn Mai Phương - Senior Event Producer" class="avatar-img" id="hero-avatar-img">
+                    </div>
+
+                    <!-- Floating Badges -->
+                    <div class="floating-badge badge-top-right">
+                        <div class="badge-icon">🎪</div>
+                        <div>
+                            <div style="font-size:0.75rem; color:var(--text-dim);">Chuyên Môn</div>
+                            <div>Mega Event Producer</div>
+                        </div>
+                    </div>
+
+                    <div class="floating-badge badge-bottom-left">
+                        <div class="badge-icon">🚀</div>
+                        <div>
+                            <div style="font-size:0.75rem; color:var(--text-dim);">Chiến Lược</div>
+                            <div>IMC & Viral Brand Lead</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid" id="stats-container">
+                <!-- Dynamically rendered via data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Services Section -->
+    <section class="about-section" id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag" data-i18n="sectionAboutTag">Hồ Sơ Năng Lực</span>
+                <h2 class="section-title" data-i18n="sectionAboutTitle">Định Hình Trải Nghiệm & <span>Thương Hiệu</span></h2>
+                <p class="section-subtitle" data-i18n="sectionAboutSub">Kết hợp tư duy thẩm mỹ nghệ thuật cùng khả năng quản trị vận hành chính xác.</p>
+            </div>
+
+            <div class="services-grid reveal" id="services-container">
+                <!-- Dynamically rendered via data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag" data-i18n="sectionSkillsTag">Năng Lực Cốt Lõi</span>
+                <h2 class="section-title" data-i18n="sectionSkillsTitle">Kỹ Năng & <span>Chuyên Môn</span></h2>
+                <p class="section-subtitle" data-i18n="sectionSkillsSub">Hệ sinh thái kỹ năng toàn diện từ sáng tạo concept đến điều phối kỹ thuật sân khấu.</p>
+            </div>
+
+            <div class="skills-tab-nav" id="skills-tab-nav">
+                <!-- Dynamically rendered via data.js -->
+            </div>
+
+            <div class="skills-content-grid reveal" id="skills-content-container">
+                <!-- Dynamically rendered via data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects (Portfolio Showcase) -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag" data-i18n="sectionProjectsTag">Dự Án Tiêu Biểu</span>
+                <h2 class="section-title" data-i18n="sectionProjectsTitle">Case Studies & <span>Sự Kiện Thực Chiến</span></h2>
+                <p class="section-subtitle" data-i18n="sectionProjectsSub">Các dấu ấn sự kiện đỉnh cao và chiến dịch truyền thông đa kênh đã thực hiện.</p>
+            </div>
+
+            <!-- Project Filters -->
+            <div class="project-filter-nav">
+                <button class="filter-btn active" onclick="filterProjects('all', this)" data-i18n="filterAll">Tất cả</button>
+                <button class="filter-btn" onclick="filterProjects('corporate', this)" data-i18n="filterCorporate">Hội nghị & B2B</button>
+                <button class="filter-btn" onclick="filterProjects('festival', this)" data-i18n="filterFestival">Lễ hội & Festival</button>
+                <button class="filter-btn" onclick="filterProjects('launch', this)" data-i18n="filterLaunch">Ra mắt Sản phẩm</button>
+                <button class="filter-btn" onclick="filterProjects('campaign', this)" data-i18n="filterCampaign">Chiến dịch IMC</button>
+            </div>
+
+            <div class="projects-grid reveal" id="projects-grid">
+                <!-- Dynamically rendered via data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Timeline -->
+    <section class="timeline-section" id="timeline">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag" data-i18n="sectionTimelineTag">Hành Trình Sự Nghiệp</span>
+                <h2 class="section-title" data-i18n="sectionTimelineTitle">Kinh Nghiệm & <span>Học Vấn</span></h2>
+            </div>
+
+            <div class="timeline-tab-toggle">
+                <button class="btn btn-secondary btn-sm active" onclick="switchTimelineTab('experience', this)" data-i18n="tabExperience">Kinh Nghiệm Thực Chiến</button>
+                <button class="btn btn-secondary btn-sm" onclick="switchTimelineTab('education', this)" data-i18n="tabEducation">Học Vấn & Chứng Chỉ</button>
+            </div>
+
+            <div class="timeline-container reveal" id="timeline-container">
+                <!-- Dynamically rendered via data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag" data-i18n="sectionTestimonialsTag">Đối Tác Nói Gì</span>
+                <h2 class="section-title" data-i18n="sectionTestimonialsTitle">Nhận Xét Từ <span>Khách Hàng & Đối Tác</span></h2>
+            </div>
+
+            <div class="testimonials-grid reveal" id="testimonials-grid">
+                <!-- Dynamically rendered via data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Consultation Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag" data-i18n="sectionContactTag">Hợp Tác Phát Triển</span>
+                <h2 class="section-title" data-i18n="sectionContactTitle">Sẵn Sàng Cho <span>Sự Kiện Tiếp Theo?</span></h2>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Left: Contact Details Card -->
+                <div class="contact-info-card reveal">
+                    <div>
+                        <h3 class="contact-info-heading" data-i18n="contactHeading">Hãy Cùng Tạo Nên Khoảnh Khắc Đột Phá</h3>
+                        <p class="contact-info-desc" data-i18n="contactDesc">
+                            Bạn đang ấp ủ một sự kiện hoành tráng hoặc chiến dịch marketing lan tỏa? Hãy gửi thông tin để cùng thảo luận ý tưởng concept và báo giá chi tiết.
+                        </p>
+
+                        <div class="contact-methods-list">
+                            <div class="contact-item">
+                                <div class="contact-item-icon">✉</div>
+                                <div class="contact-item-details">
+                                    <div class="contact-item-label">Email Trực Tiếp</div>
+                                    <div class="contact-item-val" id="contact-email-val">phuong.nguyen.events@gmail.com</div>
+                                </div>
+                                <button class="btn-copy-quick" onclick="copyToClipboard('phuong.nguyen.events@gmail.com')" title="Sao chép email">📋</button>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-item-icon">📞</div>
+                                <div class="contact-item-details">
+                                    <div class="contact-item-label">Hotline / Zalo</div>
+                                    <div class="contact-item-val" id="contact-phone-val">+84 987 654 321</div>
+                                </div>
+                                <button class="btn-copy-quick" onclick="copyToClipboard('+84 987 654 321')" title="Sao chép số điện thoại">📋</button>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-item-icon">📍</div>
+                                <div class="contact-item-details">
+                                    <div class="contact-item-label">Khu Vực Hoạt Động</div>
+                                    <div class="contact-item-val" id="contact-location-val">Hà Nội / TP. Hồ Chí Minh, Việt Nam</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="font-size:0.85rem; color:var(--text-dim);">
+                        ⚡ Phản hồi nhanh chóng trong vòng 24 giờ làm việc.
+                    </div>
+                </div>
+
+                <!-- Right: Consultation Inquiry Form -->
+                <div class="contact-form-card reveal">
+                    <form id="contact-form">
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label class="form-label" for="form-name" data-i18n="formName">Họ và tên của bạn</label>
+                                <input type="text" id="form-name" class="form-input" placeholder="Ví dụ: Nguyễn Văn A" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="form-email" data-i18n="formEmail">Địa chỉ Email</label>
+                                <input type="email" id="form-email" class="form-input" placeholder="tenban@congty.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label class="form-label" for="form-phone" data-i18n="formPhone">Số điện thoại liên hệ</label>
+                                <input type="tel" id="form-phone" class="form-input" placeholder="0987xxxxxx" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="form-service-type" data-i18n="formType">Loại hình dịch vụ quan tâm</label>
+                                <select id="form-service-type" class="form-select" required>
+                                    <option value="" data-i18n="formTypeSelect">-- Chọn dịch vụ --</option>
+                                    <option value="mega-event" data-i18n="formTypeOpt1">Tổ chức Mega Event / Festival</option>
+                                    <option value="conference" data-i18n="formTypeOpt2">Hội nghị Quốc tế / B2B Summit</option>
+                                    <option value="launch" data-i18n="formTypeOpt3">Lễ ra mắt sản phẩm / Activation</option>
+                                    <option value="imc" data-i18n="formTypeOpt4">Chiến dịch IMC & Booking KOL</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="form-message" data-i18n="formMessage">Chia sẻ ngắn gọn về mục tiêu sự kiện / ngân sách dự kiến</label>
+                            <textarea id="form-message" class="form-textarea" placeholder="Mục tiêu sự kiện, quy mô khách mời dự kiến, thời gian tổ chức..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;" data-i18n="formSubmit">
+                            Gửi Yêu Cầu Tư Vấn ➔
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="brand-logo">
+                    <div class="brand-badge">P</div>
+                    <div class="brand-text">MaiPhuong<span>.Events</span></div>
+                </div>
+
+                <div class="footer-copy">
+                    © 2026 Nguyễn Mai Phương • All rights reserved. Designed with precision & elegance.
+                </div>
+
+                <div class="footer-socials">
+                    <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-circle-btn" aria-label="LinkedIn">in</a>
+                    <a href="https://behance.net" target="_blank" rel="noopener" class="social-circle-btn" aria-label="Behance">Bē</a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener" class="social-circle-btn" aria-label="Facebook">f</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Floating Button -->
+    <button class="back-to-top-btn" id="back-to-top-btn" aria-label="Lên đầu trang">↑</button>
+
+    <!-- Interactive Project Details Modal -->
+    <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true">
+        <div class="modal-container">
+            <button class="modal-close-btn" onclick="closeProjectModal()" aria-label="Đóng cửa sổ">✕</button>
+            <div id="modal-dynamic-content">
+                <!-- Dynamically populated on click -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications Container -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
